@@ -56,6 +56,7 @@ public class Arithmetic_Progression {
                     System.out.print("Enter the last term: t\u2099 = ");
                     tn = sc.nextDouble();
                     n = ((tn - a) / d) + 1;
+                    n = Math.round(n);
                     boolean x = false;
                     if (n == (int) n) x = true;
                     if (x) {
