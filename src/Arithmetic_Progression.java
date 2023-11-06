@@ -1,3 +1,22 @@
+/**
+ * Working of my Program - Arithmetic Progression Solver
+ * A User chooses a choice from the given menu
+ * Next, User inputs the following conditions using Scanner Class:
+ * If contains any alphabet = Invalid number
+ * Enter value of a (first term) = valid
+ * Enter value of d (difference) = valid
+ * Enter value of n (position of n-th term) = valid
+ * Enter value of S (Sum of A.P.) = valid
+ * Enter value of tn (n-th term) = valid
+ * Program processes by the following formulas:
+ * tn = a+(n-1)d
+ * n = ((tn - a) / d) + 1
+ * Check if a series is an A.P. = the difference remains same. Loop = tn - t(n-1), where n is n-th no. of term
+ * S = (n * (2 * a + ((n - 1) * d))) / 2
+ * Print A.P. = Loop with addition of difference (d) to (n+1) th term
+ * Check if a given term is in an A.P. = tn = ((n - a) / d) + 1; If the value is whole number, then the term is in an A.P.
+ */
+
 import java.util.Scanner;
 
 public class Arithmetic_Progression {
