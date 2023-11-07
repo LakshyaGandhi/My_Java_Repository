@@ -39,7 +39,7 @@ public class Arithmetic_Progression {
     }
 
     public static void main(String[] args) {
-        System.out.println("Aritmetic Progression");
+        System.out.println("Arithmetic Progression");
         while (true) {
             System.out.println("\nType - 1: Find t\u2099"); //tn
             System.out.println("Type - 2: Find number of terms");
