@@ -137,7 +137,7 @@ public class Arithmetic_Progression {
                         y = sc.nextLine();
                         try {
                             double t2 = Double.parseDouble(y);
-                            System.out.print("Enter the second term: t\u2083 = ");
+                            System.out.print("Enter the third term: t\u2083 = ");
                             z = sc.nextLine();
                             try {
                                 double t3 = Double.parseDouble(z);
